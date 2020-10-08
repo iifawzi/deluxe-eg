@@ -3,12 +3,17 @@
 :root {
     --white: #fff;
     --black: #000;
-    --yellow: #fbbc2f;
+    --yellow: #f8c048;
+    --light-yellow: #ffb6179a;
     --primary-color: var(--yellow);
 }
 @font-face {
     font-family: pastika-medium;
     src: url(../assets/fonts/pastika-medium.ttf);
+  }
+  @font-face {
+    font-family: NorthCarossela;
+    src: url(../assets/fonts/North\ Carossela.otf);
   }
 * {
     margin: 0px;
@@ -38,7 +43,10 @@ body {
 
 /* colors */
 .primary {
-    color: var(--primary-color);
+    background: -webkit-linear-gradient(180deg,var(--primary-color), var(--light-yellow));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Responsive style */
