@@ -1,0 +1,21 @@
+.home {
+    background-image: url("../assets/images/home-bg.jpg");
+    display: flex;
+}
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+.left a {
+    text-decoration: none;
+    color: inherit;
+}
+.left .logo-text {
+    color: var(--white);
+}
+.right {
+    color: var(--white);
+}
