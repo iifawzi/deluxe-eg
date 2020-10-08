@@ -47,6 +47,8 @@ header .right {
 
 .main .left {
   color: var(--white);
+  animation: moveRight 0.5s forwards linear;
+  position: relative;
 }
 
 .left .logo {
@@ -121,10 +123,12 @@ li.active-item {
 }
 
 .main .middle {
-    color: var(--white);
+  color: var(--white);
   font-size: 5rem;
   display: flex;
   flex-flow: column;
+  animation: moveUp 0.5s forwards linear;
+  position: relative;
 }
 
 .middle .part-text {
@@ -132,18 +136,44 @@ li.active-item {
 }
 
 .main .right {
-    font-size: 2rem;
-    color: var(--white);
+  font-size: 2rem;
+  color: var(--white);
 }
 
 .main .right .icon {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .main .right .icon:hover {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
+
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+@keyframes moveRight {
+  0% {
+    left: -100px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
+}
+
+
+@keyframes moveUp {
+  0% {
+    bottom: -150px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
 }
