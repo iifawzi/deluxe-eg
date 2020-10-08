@@ -1,21 +1,120 @@
 .home {
-    background-image: url("../assets/images/home-bg.jpg");
-    display: flex;
+  background-image: url("../assets/images/home-bg.jpg");
+  display: flex;
+  flex-flow: column;
 }
+
 header {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 30px;
 }
-.left a {
-    text-decoration: none;
-    color: inherit;
+
+header .left a {
+  text-decoration: none;
+  color: inherit;
 }
-.left .logo-text {
-    color: var(--white);
+
+header .left .logo-text {
+  color: var(--white);
 }
-.right {
-    color: var(--white);
+
+header .right {
+  color: var(--white);
 }
+
+.main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+}
+
+.main .left {
+  color: var(--white);
+}
+
+.left .logo {
+    width: 80px;
+}
+
+.main ul {
+  list-style: none;
+  transform: translateX(50px);
+}
+
+ul li {
+  margin: 40px 0px;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul li:hover {
+  opacity: 1;
+}
+
+li .number {
+  transform: rotate(270deg);
+  font-size: 1.4rem;
+  margin-right: 15px;
+  color: var(--primary-color);
+}
+
+li .list-item {
+  font-size: 2.2rem;
+  margin-left: 50px;
+  margin-top: 4px;
+}
+
+li .line {
+  display: none;
+}
+
+li .square {
+  display: none;
+}
+
+.active-item {
+  transform: translateX(-50px);
+  font-weight: 800;
+}
+
+li.active-item {
+  opacity: 1;
+}
+
+.active-item .line {
+  display: inline-block;
+  display: block;
+  width: 80px;
+  border-bottom: 1px solid white;
+}
+
+.active-item .square {
+  display: inline-block;
+  display: block;
+  width: 5px;
+  height: 5px;
+  transform: rotate(134deg);
+  background-color: white;
+}
+
+.active-item .list-item {
+  margin-left: 0px;
+}
+
+.main .middle {
+  color: var(--white);
+  font-size: 5rem;
+  display: flex;
+  flex-flow: column;
+}
+.middle .part-text {
+    display: block;
+}
+ 

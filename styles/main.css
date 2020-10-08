@@ -1,3 +1,5 @@
+/*  Main Settings */
+
 :root {
     --white: #fff;
     --black: #000;
@@ -15,20 +17,35 @@
     font-family: pastika-medium;
 }
 
+/* Essential styles */
+html {
+    font-size: 10px;
+}
+body {
+    font-size: 1.6rem;
+}
+
+/* Background styles */
+
 .full-background {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
 }
 .full-height {
-    height: 100vh;
+    min-height: 100vh;
 }
 
+/* colors */
+.primary {
+    color: var(--primary-color);
+}
+
+/* Responsive style */
 
 .mobile-only {
     display: none;
 }
-
 @media(max-width: 576px){
     .mobile-only {
         display: block;
