@@ -47,7 +47,7 @@ header .right {
 
 .main .left {
   color: var(--white);
-  animation: moveRight 0.5s forwards linear;
+  animation: moveRight 0.8s forwards ease-in-out;
   position: relative;
 }
 
@@ -115,7 +115,7 @@ li.active-item {
   width: 5px;
   height: 5px;
   transform: rotate(134deg);
-  background-color: white;
+  background-color: var(--primary-color);
 }
 
 .active-item .list-item {
@@ -127,7 +127,7 @@ li.active-item {
   font-size: 5rem;
   display: flex;
   flex-flow: column;
-  animation: moveUp 0.5s forwards linear;
+  animation: moveUp 0.8s forwards ease-in-out;
   position: relative;
 }
 
@@ -156,7 +156,7 @@ a {
 
 @keyframes moveRight {
   0% {
-    left: -100px;
+    left: -150px;
     opacity: 0;
   }
 
@@ -169,7 +169,7 @@ a {
 
 @keyframes moveUp {
   0% {
-    bottom: -150px;
+    bottom: -200px;
     opacity: 0;
   }
   100% {
