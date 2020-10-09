@@ -4,22 +4,19 @@
     --white: #fff;
     --black: #000;
     --yellow: #f8c048;
-    --light-yellow: #ffb6179a;
+    --purple: #7351B3;
+    --purple-light: #591DB6;
     --primary-color: var(--yellow);
 }
 @font-face {
-    font-family: pastika-medium;
-    src: url(../assets/fonts/pastika-medium.ttf);
-  }
-  @font-face {
-    font-family: NorthCarossela;
-    src: url(../assets/fonts/North\ Carossela.otf);
+    font-family: PTSans-Regular;
+    src: url(../assets/fonts/PTSans-Regular.ttf);
   }
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: pastika-medium;
+    font-family: PTSans-Regular;
 }
 
 /* Essential styles */
@@ -28,4 +25,11 @@ html {
 }
 body {
     font-size: 1.6rem;
+}
+
+/* Container */
+
+.container {
+    margin: 0 auto;
+    width: 75%;
 }
