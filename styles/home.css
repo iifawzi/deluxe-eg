@@ -1,6 +1,6 @@
 header.main-header {
 width: 100%;
-height: 600px;
+height: 500px;
 background: #6441A5;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, var(--purple), var(--purple-light));  
 background: linear-gradient(to right, var(--purple), var(--purple-light)); 
@@ -11,7 +11,7 @@ padding-top: 10px;
 .navbar {
   background-color: white;
   width: 100%;
-  height: 80px;
+  height: 55px;
   border-radius: 10px;
   display: flex;
   flex-flow: row;
@@ -20,6 +20,7 @@ padding-top: 10px;
   padding: 0px 40px;
   z-index: 1000;
   position: relative;
+  box-shadow: 0px 5px 100px 0px #1a0638;
 }
 .navbar .left img{
  width: 100px;
@@ -28,7 +29,7 @@ padding-top: 10px;
 .navbar-items li {
   display: inline;
   cursor: pointer;
-  font-weight: 900;
+  font-weight: 600;
 }
 .navbar-items li:hover {
   color: var(--primary-color);
@@ -53,23 +54,25 @@ padding-top: 10px;
   height: 600px;
   border: 70px solid #5a1db6c4;
   right: -240px;
-  top: -200px;
+  top: -250px;
 }
 .empty-circle-left-down{
   width: 800px;
   height: 800px;
   border: 70px solid #5a1db6c4;
   right: -250px;
-  top: -200px;
+  top: -300px;
 }
 .empty-circle-right{
   width: 800px;
   height: 800px;
   border: 150px solid #5a1db641;
   left: -180px;
-  top: -240px;
+  top: -300px;
 }
 
+
+/* Header content styles */
 
 .header-content {
   z-index: 1000;
@@ -77,8 +80,7 @@ padding-top: 10px;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  height: 530px;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 .header-content .left {
   display: flex;
@@ -99,4 +101,8 @@ padding-top: 10px;
   font-size: 1.6rem;
   width: 500px;
   word-spacing: 2px;
+}
+
+.header-content .right img {
+width: 400px;
 }
