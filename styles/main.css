@@ -29,33 +29,3 @@ html {
 body {
     font-size: 1.6rem;
 }
-
-/* Background styles */
-
-.full-background {
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-.full-height {
-    min-height: 100vh;
-}
-
-/* colors */
-.primary {
-    background: -webkit-linear-gradient(180deg,var(--primary-color), var(--light-yellow));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/* Responsive style */
-
-.mobile-only {
-    display: none;
-}
-@media(max-width: 576px){
-    .mobile-only {
-        display: block;
-    }
-}
