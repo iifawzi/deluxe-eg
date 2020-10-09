@@ -140,12 +140,9 @@ li.active-item {
   color: var(--white);
 }
 
-.main .right .icon {
-  cursor: pointer;
-}
-
-.main .right .icon:hover {
+.main .right li:hover {
   color: var(--primary-color);
+  cursor: pointer;
 }
 
 a {
