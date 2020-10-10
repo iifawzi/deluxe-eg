@@ -68,3 +68,29 @@
     align-items: center;
     color: var(--white);
 }
+
+
+
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 30px;
+    }
+    .footer__content {
+        flex-flow: column;
+        align-items: center;
+    }
+    .footer__content__section ul{
+        list-style: none;
+    }
+    .footer__content__section:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .footer__content__section .list-item {
+        text-align: center;
+    }    
+    .copyright {
+       font-size: 1.4rem;
+        text-align: center;
+    }
+  }
+  
