@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="./styles/home.css">
   <link rel="stylesheet" href="./styles/aboutus.css">
   <link rel="stylesheet" href="./styles/services.css">
+  <link rel="stylesheet" href="./styles/ourworks.css">
   <link rel="stylesheet" href="./styles/help.css">
   <link rel="stylesheet" href="./styles/footer.css">
+  <script src="./scripts/index.js"></script>
   <title>Deluxe Solutions</title>
 </head>
 
@@ -123,6 +125,119 @@
     </div>
   </section>
 
+  <!-- Our Works -->
+  <section class="our-works">
+    <div class="left">
+      <span> OUR WORK</span>
+      <small class="sub-ourworks">We Make Products we love.</small>
+      <div class="icons">
+        <i class="arrow left-arrow fas fa-chevron-left" onclick="moveLeft()"></i>
+        <i class=" arrow right-arrow fas fa-chevron-right" onclick="moveRight()"></i>
+      </div>
+    </div>
+    <div class="right" id="ourWorkContainer">
+      <div class="work">
+        <img src="./assets/images/thmb-test.jpg" />
+        <span class="project-name">Voda Virtual Reality</span>
+        <div class="info">
+          <span class="client"><b class="identifier">Client:</b> <br /> Vodafone</span>
+          <span class="category"><b class="identifier">Category:</b> <br /> Mobile Devlopment</span>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="./assets/images/case_thumb_tvet.jpg" />
+        <span class="project-name">Voda Virtual Reality</span>
+        <div class="info">
+          <span class="client"><b class="identifier">Client:</b> <br /> Vodafone</span>
+          <span class="category"><b class="identifier">Category:</b> <br /> Mobile Devlopment</span>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="./assets/images/case_thumb_hero.jpg" />
+        <span class="project-name">Voda Virtual Reality</span>
+        <div class="info">
+          <span class="client"><b class="identifier">Client:</b> <br /> Vodafone</span>
+          <span class="category"><b class="identifier">Category:</b> <br /> Mobile Devlopment</span>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./assets/images/case_thumb_toshiba.jpg" />
+        <span class="project-name">Voda Virtual Reality</span>
+        <div class="info">
+          <span class="client"><b class="identifier">Client:</b> <br /> Vodafone</span>
+          <span class="category"><b class="identifier">Category:</b> <br /> Mobile Devlopment</span>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./assets/images/case_thumb_igp.jpg" />
+        <span class="project-name">Voda Virtual Reality</span>
+        <div class="info">
+          <span class="client"><b class="identifier">Client:</b> <br /> Vodafone</span>
+          <span class="category"><b class="identifier">Category:</b> <br /> Mobile Devlopment</span>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./assets/images/case_thumb_tvet.jpg" />
+        <span class="project-name">Voda Virtual Reality</span>
+        <div class="info">
+          <span class="client"><b class="identifier">Client:</b> <br /> Vodafone</span>
+          <span class="category"><b class="identifier">Category:</b> <br /> Mobile Devlopment</span>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./assets/images/thmb-test.jpg" />
+        <span class="project-name">Voda Virtual Reality</span>
+        <div class="info">
+          <span class="client"><b class="identifier">Client:</b> <br /> Vodafone</span>
+          <span class="category"><b class="identifier">Category:</b> <br /> Mobile Devlopment</span>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="./assets/images/case_thumb_tvet.jpg" />
+        <span class="project-name">Voda Virtual Reality</span>
+        <div class="info">
+          <span class="client"><b class="identifier">Client:</b> <br /> Vodafone</span>
+          <span class="category"><b class="identifier">Category:</b> <br /> Mobile Devlopment</span>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="./assets/images/case_thumb_hero.jpg" />
+        <span class="project-name">Voda Virtual Reality</span>
+        <div class="info">
+          <span class="client"><b class="identifier">Client:</b> <br /> Vodafone</span>
+          <span class="category"><b class="identifier">Category:</b> <br /> Mobile Devlopment</span>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./assets/images/case_thumb_toshiba.jpg" />
+        <span class="project-name">Voda Virtual Reality</span>
+        <div class="info">
+          <span class="client"><b class="identifier">Client:</b> <br /> Vodafone</span>
+          <span class="category"><b class="identifier">Category:</b> <br /> Mobile Devlopment</span>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./assets/images/case_thumb_igp.jpg" />
+        <span class="project-name">Voda Virtual Reality</span>
+        <div class="info">
+          <span class="client"><b class="identifier">Client:</b> <br /> Vodafone</span>
+          <span class="category"><b class="identifier">Category:</b> <br /> Mobile Devlopment</span>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./assets/images/case_thumb_tvet.jpg" />
+        <span class="project-name">Voda Virtual Reality</span>
+        <div class="info">
+          <span class="client"><b class="identifier">Client:</b> <br /> Vodafone</span>
+          <span class="category"><b class="identifier">Category:</b> <br /> Mobile Devlopment</span>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- help section -->
   <section class="help">
     <div class="container">
@@ -150,7 +265,7 @@
           <ul>
             <li class="list-item heading"><img class="footer-logo" src="./assets/images/logo.png" /></li>
             <li class="list-item"><i class="fas fa-home icon"></i>Egypt, Portsaid</li>
-            <li class="list-item"><i class="fas fa-at icon"></i>iifawzie@gmail.com</li> 
+            <li class="list-item"><i class="fas fa-at icon"></i>iifawzie@gmail.com</li>
             <li class="list-item"><i class="fas fa-phone-square-alt icon "></i>+ 01090243795</li>
           </ul>
         </div>
