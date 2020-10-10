@@ -29,7 +29,6 @@ padding-top: 10px;
 .navbar-items li {
   display: inline;
   cursor: pointer;
-  font-weight: 600;
 }
 .navbar-items li:hover {
   color: var(--primary-color);

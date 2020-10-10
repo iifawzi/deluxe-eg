@@ -1,0 +1,31 @@
+.aboutus {
+    display: flex;
+    flex-flow: row;
+    padding: 80px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus .left img {
+    width: 600px;
+}
+.aboutus .right {
+    display: flex;
+    flex-flow: column;
+    margin-left: 140px;
+}
+.aboutus .right .title {
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 2rem;
+}
+.aboutus .right .heading {
+    font-size: 4rem;
+    color: var(--purple-light);
+}
+.aboutus .right .heading:not(:nth-last-child(2)){
+   margin-top: 15px;
+}
+.aboutus .right .desc {
+    width: 600px;
+    margin-top: 20px;
+}
