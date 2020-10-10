@@ -8,6 +8,8 @@
     --purple-light: #591DB6;
     --pink: #FAF6FF;
     --pink-light: #FDFCFF;
+    --cyan: #07C1C8;
+    --cyan-light: #1fdfe6;
     --primary-color: var(--yellow);
 }
 @font-face {
