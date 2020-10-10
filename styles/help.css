@@ -53,7 +53,7 @@
 .help-circle-right {
     width: 400px;
     height: 400px;
-    border: 50px solid #4e1a9c77;
+    border: 50px solid var(--rgba-purple);
     top: -80px;
     right: -80px;
     opacity: 0.5;
@@ -63,7 +63,7 @@
 .help-circle-right-small {
     width: 200px;
     height: 200px;
-    border: 50px solid #5a1db6d8;
+    border: 50px solid var(--rgba-purple-light);
     top: 0px;
     right: 0px;
     opacity: 0.5;

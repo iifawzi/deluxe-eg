@@ -10,6 +10,8 @@
     --pink-light: #FDFCFF;
     --cyan: #07C1C8;
     --cyan-light: #1fdfe6;
+    --rgba-purple: #4e1a9c77;
+    --rgba-purple-light: #5a1db6d8;
     --primary-color: var(--yellow);
 }
 @font-face {

@@ -91,7 +91,7 @@
 .card-circle-first {
     width: 380px;
     height: 350px;
-    border: 50px solid #5a1db6d8;
+    border: 50px solid var(--rgba-purple-light);
     left: -100px;
     top: -70px;
     opacity: 0.4;
@@ -99,7 +99,7 @@
 .card-circle-second {
     width: 400px;
     height: 370px;
-    border: 50px solid #4e1a9c77;
+    border: 50px solid var(--rgba-purple);
     left: -100px;
     top: -70px;
     opacity: 0.4;
@@ -164,7 +164,7 @@
     .card-circle-first {
         width: 380px;
         height: 350px;
-        border: 50px solid #5a1db6d8;
+        border: 50px solid var(--rgba-purple-light);
         left: -100px;
         top: -70px;
         opacity: 0.4;
@@ -172,7 +172,7 @@
     .card-circle-second {
         width: 400px;
         height: 370px;
-        border: 50px solid #4e1a9c77;
+        border: 50px solid var(--rgba-purple);
         left: -100px;
         top: -70px;
         opacity: 0.4;
