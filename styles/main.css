@@ -3,9 +3,11 @@
 :root {
     --white: #fff;
     --black: #000;
-    --yellow: #f8c048;
+    --yellow: #F7A626;
     --purple: #7351B3;
     --purple-light: #591DB6;
+    --pink: #FAF6FF;
+    --pink-light: #FDFCFF;
     --primary-color: var(--yellow);
 }
 @font-face {

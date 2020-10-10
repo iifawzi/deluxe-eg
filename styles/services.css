@@ -1,0 +1,107 @@
+.services {
+    padding: 80px 0px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, var(--pink),var(--pink-light));
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.services > .title {
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 2rem;
+}
+.services .heading {
+    margin-top: 25px;
+    font-size: 4rem;
+    color: var(--purple-light);
+}
+.services .cards {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card {
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgb(230, 230, 230);
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    position: relative;
+    top: 0px;
+    overflow-x: hidden;
+}
+.card:hover {
+    top: -15px;
+}
+.card.colored {
+    background-image: linear-gradient(to bottom,var(--purple),var(--purple-light));
+    
+}
+
+.card > .icon {
+    font-size: 4rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    transition: 0.4s;
+    z-index: 1000;
+} 
+
+
+.card > .title {
+    font-size: 2rem;
+    color: var(--purple-light);
+    font-weight: 900;
+    margin-bottom: 20px;
+    transition: 0.4s;
+    z-index: 1000;
+} 
+.card.colored > .title {
+    color: var(--white); 
+}
+.card .desc {
+    z-index: 1000;
+}
+.card.colored > .desc {
+    color: var(--white); 
+}
+
+
+.card-circle {
+    display: none;
+}
+.colored .card-circle {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.card-circle-first {
+    width: 380px;
+    height: 350px;
+    border: 50px solid #5a1db6d8;
+    left: -100px;
+    top: -70px;
+    opacity: 0.4;
+}
+.card-circle-second {
+    width: 400px;
+    height: 370px;
+    border: 50px solid #4e1a9c77;
+    left: -100px;
+    top: -70px;
+    opacity: 0.4;
+}
