@@ -5,7 +5,6 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding-top: 90px;
 }
 
 .services > .title {
@@ -105,3 +104,79 @@
     top: -70px;
     opacity: 0.4;
 }
+
+
+
+@media (max-width: 768px) {    
+    .services .cards {
+        margin-top: 50px;
+        flex-flow: column;
+    }
+    .card:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .card:hover {
+        top: -15px;
+    }
+    .card.colored {
+        background-image: linear-gradient(to bottom,var(--purple),var(--purple-light));
+        
+    }
+    
+    .card > .icon {
+        font-size: 4rem;
+        color: var(--primary-color);
+        margin-bottom: 15px;
+        transition: 0.4s;
+        z-index: 1000;
+    } 
+    
+    
+    .card > .title {
+        font-size: 2rem;
+        color: var(--purple-light);
+        font-weight: 900;
+        margin-bottom: 20px;
+        transition: 0.4s;
+        z-index: 1000;
+    } 
+    .card.colored > .title {
+        color: var(--white); 
+    }
+    .card .desc {
+        z-index: 1000;
+    }
+    .card.colored > .desc {
+        color: var(--white); 
+    }
+    
+    
+    .card-circle {
+        display: none;
+    }
+    .colored .card-circle {
+        display: block;
+        z-index: 1;
+        position: absolute;
+        border-radius: 50%;
+    }
+    
+    .card-circle-first {
+        width: 380px;
+        height: 350px;
+        border: 50px solid #5a1db6d8;
+        left: -100px;
+        top: -70px;
+        opacity: 0.4;
+    }
+    .card-circle-second {
+        width: 400px;
+        height: 370px;
+        border: 50px solid #4e1a9c77;
+        left: -100px;
+        top: -70px;
+        opacity: 0.4;
+    }
+    
+  }
+  
