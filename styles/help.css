@@ -56,6 +56,8 @@
     border: 50px solid #4e1a9c77;
     top: -80px;
     right: -80px;
+    opacity: 0.5;
+
 }
 
 .help-circle-right-small {
@@ -64,5 +66,38 @@
     border: 50px solid #5a1db6d8;
     top: 0px;
     right: 0px;
+    opacity: 0.5;
+
 }
 
+
+@media (max-width: 768px) {
+    .help {
+        width: 90%;
+        margin: 0 auto;
+    }    
+    .help__content {
+align-items: center;
+    }
+    .help__content .title {
+        z-index: 1000;
+        font-size: 2rem;
+        color: #fdf2f2;
+    }
+    
+    .help__content .heading {
+        margin-top: 15px;
+        font-size: 2.6rem;
+        flex-flow: column;
+        align-items: center;
+        z-index: 1000;
+    }
+    .help__content .heading .talk-button {
+        width: 100px;
+        height: 30px;
+        margin-top: 15px;
+        z-index: 1000;
+        font-size: 1.4rem;
+    }
+  }
+  
