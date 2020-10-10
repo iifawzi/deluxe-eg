@@ -26,6 +26,7 @@ html {
 body {
     font-size: 1.6rem;
     color: var(--light-black);
+    overflow-x: hidden;
 }
 
 /* Container */
