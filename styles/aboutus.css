@@ -29,3 +29,17 @@
     width: 600px;
     margin-top: 20px;
 }
+
+.points-aboutus {
+    position: absolute;
+    opacity: 0.2;
+}
+
+.points-aboutus-right {
+    right: -140px;
+    
+}
+
+.points-aboutus-left {
+    left: -140px;
+}
