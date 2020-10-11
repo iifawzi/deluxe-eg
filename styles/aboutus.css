@@ -29,18 +29,7 @@
     width: 600px;
     margin-top: 20px;
 }
-.aboutus-button {
-    margin-top: 50px;
-    width: 150px;
-    height: 45px;
-    border-radius: 10px;
-    outline: none;
-    border: 0px;
-    background-image: linear-gradient(to right, var(--purple),var(--purple-light));
-    color: var(--white);
-    font-size: 1.8rem;
-    cursor: pointer;
-}
+
 .points-aboutus {
     position: absolute;
     opacity: 0.2;
@@ -82,13 +71,6 @@
         width: 90%;
         margin-top: 20px;
         text-align: center;
-    }
-    .aboutus-button {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 120px;
-        height: 40px;
-        border-radius: 10px;
-    }        
+    }   
   }
   
