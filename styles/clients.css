@@ -1,0 +1,68 @@
+.our-clients {
+    margin-top: 30px;
+    padding: 70px 40px;
+    display: flex;
+    flex-flow: column;
+    background-image: linear-gradient(to bottom, var(--pink),var(--pink-light));
+    position:relative; 
+}
+
+.our-clients .heading {
+    margin-bottom: 40px;
+    font-size: 4rem;
+    background-image: linear-gradient(270deg, var(--purple-light), var(--purple));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.our-clients .clients-logos {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    animation: clientsMove 10s linear infinite;
+    position:absolute; 
+    top:140px; 
+    left:0px; 
+    white-space: nowrap;
+}
+
+.client-logo {
+    max-width: 100px;
+    filter: grayscale(100%);
+    transition: 0.2s;
+    margin-right: 20px;
+}
+.client-logo:hover {
+    filter: none;
+}
+
+
+@keyframes clientsMove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+  }
+
+
+  .points-clients {
+    position: absolute;
+    opacity: 0.2;
+}
+
+.points-clients-right {
+    right: -140px;
+    top: 0px;
+    
+}
+
+.points-clients-left {
+    left: -140px;
+    top: 0px;
+
+}
