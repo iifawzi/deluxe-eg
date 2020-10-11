@@ -149,33 +149,12 @@
     .card.colored > .desc {
         color: var(--white); 
     }
-    
-    
+    .services .heading {
+        margin-top: 15px;
+        font-size: 3rem;
+    }
     .card-circle {
         display: none;
-    }
-    .colored .card-circle {
-        display: block;
-        z-index: 1;
-        position: absolute;
-        border-radius: 50%;
-    }
-    
-    .card-circle-first {
-        width: 380px;
-        height: 350px;
-        border: 50px solid var(--rgba-purple-light);
-        left: -100px;
-        top: -70px;
-        opacity: 0.4;
-    }
-    .card-circle-second {
-        width: 400px;
-        height: 370px;
-        border: 50px solid var(--rgba-purple);
-        left: -100px;
-        top: -70px;
-        opacity: 0.4;
     }
     
   }

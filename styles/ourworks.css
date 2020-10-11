@@ -16,7 +16,6 @@
   display: inline-block;
   font-size: 2rem;
   position: relative;
-  bottom: 30px;
 }
 
 .our-works .left .icons {
@@ -98,7 +97,7 @@
 .our-works .right .info .identifier {
   display: inline-block;
   margin-bottom: 5px;
-  color: var(--purple-light);
+  color: var(--yellow);
 }
 
 .our-works .right .work img {
@@ -119,10 +118,10 @@
     text-align: center;
     display: flex;
     flex-flow: column;
+    font-weight: 2rem;
   }
   
   .our-works .left .sub-ourworks {
-    bottom: 0px;
     margin-bottom: 30px;
   }
   .our-works .left .icons {
@@ -134,4 +133,8 @@ display: none;
     width: 100%;
     overflow-x: scroll;
   }  
+  .our-works .right .project-name {
+    font-size: 2rem;
+
+  }
 }

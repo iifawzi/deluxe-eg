@@ -1,12 +1,13 @@
 header.main-header {
   width: 100%;
-  height: 550px;
+  height: auto;
   background: #6441A5;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, var(--purple), var(--purple-light));
   background: linear-gradient(to right, var(--purple), var(--purple-light));
   padding-top: 10px;
   position: relative;
+  overflow-x: hidden;
 }
 
 /* Navbar styles */
@@ -124,7 +125,6 @@ header.main-header {
 @media (max-width: 992px) {
   header.main-header {
     padding-top: 0px;
-    height: 400px;
     overflow: hidden;
 
   }
@@ -144,7 +144,18 @@ header.main-header {
   .header-content .right img {
     display: none;
   }
-
+  
+  .header-content .left .second {
+    margin-top: 10px;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .header-content .left .third {
+    width: 100%;
+    text-align: justify;
+    padding: 5px;
+  }
+  
   .empty-circle-left-up {
     display: none;
   }

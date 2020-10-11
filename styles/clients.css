@@ -6,6 +6,7 @@
     flex-flow: column;
     background-image: linear-gradient(to bottom, var(--pink),var(--pink-light));
     position:relative; 
+    overflow: hidden;
 }
 
 .our-clients .heading {
@@ -40,17 +41,6 @@
     filter: none;
 }
 
-
-@keyframes clientsMove {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(-50%, 0);
-    }
-  }
-
-
   .points-clients {
     position: absolute;
     opacity: 0.2;
@@ -67,3 +57,13 @@
     top: 0px;
 
 }
+
+
+@keyframes clientsMove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+  }
