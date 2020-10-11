@@ -11,7 +11,7 @@
 .our-clients .heading {
     margin-bottom: 40px;
     font-size: 4rem;
-    background-image: linear-gradient(270deg, var(--purple-light), var(--purple));
+    background-image: linear-gradient(270deg, var(--yellow-light), var(--yellow));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

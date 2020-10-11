@@ -58,7 +58,7 @@ header.main-header {
 .empty-circle-left-up {
   width: 600px;
   height: 600px;
-  border: 70px solid #5a1db6c4;
+  border: 70px solid  var(--rgba-purple);
   right: -240px;
   top: -250px;
 }
@@ -66,7 +66,7 @@ header.main-header {
 .empty-circle-left-down {
   width: 800px;
   height: 800px;
-  border: 70px solid #5a1db6c4;
+  border: 70px solid var(--rgba-purple-light);
   right: -250px;
   top: -300px;
 }
@@ -74,7 +74,7 @@ header.main-header {
 .empty-circle-right {
   width: 800px;
   height: 800px;
-  border: 150px solid #5a1db641;
+  border: 150px solid var(--rgba-purple-light);
   left: -180px;
   top: -300px;
 }

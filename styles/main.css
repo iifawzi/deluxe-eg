@@ -2,16 +2,17 @@
 
 :root {
     --white: #fff;
-    --black: #000;
+    --black: #161616;
     --yellow: #fbbb32;
-    --purple: #7351B3;
-    --purple-light: #591DB6;
+    --yellow-light: #f8c350;
+    --purple: #161616;
+    --purple-light: #252525;
     --pink: #FAF6FF;
     --pink-light: #FDFCFF;
     --cyan: #07C1C8;
     --cyan-light: #1fdfe6;
-    --rgba-purple: #4e1a9c77;
-    --rgba-purple-light: #5a1db6d8;
+    --rgba-purple: #16161677;
+    --rgba-purple-light: #252525d8;
     --primary-color: var(--yellow);
 }
 @font-face {
@@ -31,7 +32,6 @@ html {
 }
 body {
     font-size: 1.6rem;
-    color: var(--light-black);
     overflow-x: hidden;
 }
 
