@@ -19,25 +19,27 @@
 
 <body>
   <!-- Header Section -->
+  <div class="navbar">
+    <div class="left">
+      <img src="./assets/images/logo.png" />
+    </div>
+    <div class="right">
+      <ul class="navbar-items">
+        <li class="active-item">Home</li>
+        <li><a href="#aboutus-section">Abous us</a></li>
+        <li><a href="#services-section">Services</a></li>
+        <li><a href="#ourwork-section">Our work</a></li>
+        <li><a href="#clients-section">Clients</a></li>
+        <li><a href="/">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
   <header class="main-header">
     <div class="empty-circle empty-circle-left-up"></div>
     <div class="empty-circle empty-circle-left-down"></div>
     <div class="empty-circle empty-circle-right"></div>
     <div class="container">
-      <div class="navbar">
-        <div class="left">
-          <img src="./assets/images/logo.png" />
-        </div>
-        <div class="right">
-          <ul class="navbar-items">
-            <li class="active-item">Home</li>
-            <li>Our works</li>
-            <li>Packages</li>
-            <li>Clients</li>
-            <li>Contact us</li>
-          </ul>
-        </div>
-      </div>
+
       <div class="header-content">
         <div class="left">
           <span class="first">WE ARE HERE</span>
@@ -56,7 +58,7 @@
 
 
   <!-- About us Section -->
-  <section class="aboutus">
+  <section class="aboutus" id="aboutus-section">
     <div class="left">
       <img src="./assets/images/aboutus-pic-y.png" />
     </div>
@@ -72,7 +74,7 @@
   </section>
 
   <!-- Services -->
-  <section class="services">
+  <section class="services" id="services-section">
     <span class="title">WE PROVIDE</span>
     <span class="heading">Top Digital Services</span>
     <div class="cards">
@@ -124,13 +126,13 @@
   </section>
 
   <!-- Our Works -->
-  <section class="our-works">
+  <section class="our-works" id="ourwork-section">
     <div class="left">
       <span> OUR WORK</span>
       <small class="sub-ourworks">We Make Products we love.</small>
       <div class="icons">
-        <i class="arrow left-arrow fas fa-chevron-left" onclick="moveLeft()"></i>
-        <i class=" arrow right-arrow fas fa-chevron-right" onclick="moveRight()"></i>
+        <i class="arrow left-arrow fas fa-chevron-left" onclick="move('left')"></i>
+        <i class=" arrow right-arrow fas fa-chevron-right" onclick="move('right')"></i>
       </div>
     </div>
     <div class="right" id="ourWorkContainer">
@@ -254,7 +256,7 @@
   </section>
 
 <!-- Our Clients -->
-  <section class="our-clients">
+  <section class="our-clients" id="clients-section">
     <span class="heading">Our Clients</span>
    <div class="clients-logos" id="clientsContainer">
     <img src="./assets/images/google.png" class="client-logo" />
@@ -307,15 +309,17 @@
         </div>
         <div class="footer__content__section">
           <ul>
-            <li class="list-item heading">Pages</li>
-            <li class="list-item">Our Works</li>
-            <li class="list-item">Packages</li>
+            <li class="list-item heading">Sections</li>
+            <li class="list-item">Abous us</li>
+            <li class="list-item">Services</li>
+            <li class="list-item">Our work</li>
+            <li class="list-item">Clients</li>
           </ul>
         </div>
         <div class="footer__content__section">
           <ul>
             <li class="list-item heading">Support</li>
-            <li class="list-item">About us</li>
+            <li class="list-item">Contact us</li>
           </ul>
         </div>
         <div class="footer__content__section">

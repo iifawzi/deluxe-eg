@@ -60,6 +60,7 @@
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
+  scroll-behavior: smooth;
 }
 
 .our-works .right::-webkit-scrollbar {

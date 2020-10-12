@@ -22,7 +22,7 @@
     cursor: pointer;
 }
 .footer__content__section .list-item:hover {
-    color: var(--purple-light);
+    color: var(--yellow);
 }
 .footer__content__section .list-item.heading {
     font-size: 2rem;
