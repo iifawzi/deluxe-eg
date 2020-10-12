@@ -134,6 +134,7 @@ header.main-header {
 
   .navbar {
     border-radius: 0px;
+    position: relative;
   }
 
   header .header-content {
